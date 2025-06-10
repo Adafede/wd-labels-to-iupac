@@ -1,0 +1,35 @@
+[project]
+name = "Wikidata-Labels-to-IUPAC-Converter"
+version = "0.1.0"
+description = "A Python program for converting wikidata labels to IUPAC names"
+readme = "README.md"
+requires-python = ">=3.12"
+license = {text = "MIT"}
+authors = [
+    {name = "Adriano Rutz", email = "adafede@gmail.com"},
+]
+keywords = ["cheminformatics", "chemistry", "IUPAC", "OPSIN", "rdkit", "wikidata",]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Scientific/Engineering :: Chemistry",
+]
+
+dependencies = [
+    "rdkit<2026.0.0,>=2025.3.1",
+    "requests<3.0.0,>=2.32.4",
+    "SPARQLWrapper<3.0.0,>=2.0.0",
+    "tqdm<5.0.0,>=4.67.1",
+    "typing-extensions<5.0.0,>=4.14.0",
+    "dataclasses; python_version<'3.10'",
+]
+
+[project.urls]
+Homepage = "https://github.com/Adafede/wd-labels-to-iupac"
+Repository = "https://github.com/Adafede/wd-labels-to-iupac.git"
+Issues = "https://github.com/Adafede/wd-labels-to-iupac/issues"

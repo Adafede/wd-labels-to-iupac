@@ -1,0 +1,70 @@
+{
+  "title": "Wikidata-Labels-to-IUPAC Conversion Dataset",
+  "description": "This dataset contains the results of converting labels from Wikidata to IUPAC name using OPSIN (Open Parser for Systematic IUPAC Nomenclature). It includes successful matches with validated InChIKey comparisons.",
+  "version": "0.0.1",
+  "creators": [
+    {
+      "name": "Adriano Rutz",
+      "affiliation": "ETH Zurich",
+      "orcid": "0000-0003-0443-9902"
+    }
+  ],
+  "license": "MIT (code) and CC0 (data)",
+  "keywords": [
+    "cheminformatics",
+    "chemistry",
+    "IUPAC",
+    "OPSIN",
+    "rdkit",
+    "wikidata"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/dan2097/opsin",
+      "relation": "requires",
+      "resource_type": "software",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/rdkit/rdkit",
+      "relation": "requires",
+      "resource_type": "software",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://www.wikidata.org",
+      "relation": "isSourceOf",
+      "resource_type": "dataset",
+      "scheme": "url"
+    },
+    {
+      "identifier": "10.59350/dycsw-qeq51",
+      "relation": "cites",
+      "resource_type": "other",
+      "scheme": "doi"
+    }
+  ],
+  "methodology": {
+    "data_source": "Wikidata SPARQL endpoint",
+    "processing_tool": "OPSIN v2.8.0",
+    "validation_method": "InChIKey comparison using RDKit",
+    "programming_language": "Python 3.8+",
+    "dependencies": [
+      "RDKit",
+      "SPARQLWrapper",
+      "requests",
+      "tqdm"
+    ]
+  },
+  "creation_date": "2025-06-10",
+  "file_formats": [
+    "CSV",
+    "JSON",
+    "SDF"
+  ],
+  "quality_assurance": {
+    "validation_performed": true,
+    "validation_method": "InChIKey comparison",
+    "error_handling": "Comprehensive logging and retry mechanisms"
+  }
+}
