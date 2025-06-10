@@ -967,7 +967,7 @@ class ResultExporter:
         original_data: Dict[str, str],
     ) -> None:
         """Create comprehensive README file for the dataset."""
-        filepath = self.output_dir / "README"
+        filepath = self.output_dir / "README.md"
 
         success_rate = (
             (stats["inchikey_matches"] / stats["total_processed"]) * 100
