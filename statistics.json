@@ -1,0 +1,15 @@
+{
+  "summary": {
+    "total_input": 1341787,
+    "processed": 1341787,
+    "matches": 838633,
+    "success_rate": 62.5
+  },
+  "details": {
+    "total_processed": 1341787,
+    "valid_names": 874916,
+    "inchikey_matches": 838633,
+    "invalid_names": 466871,
+    "conversion_errors": 0
+  }
+}
