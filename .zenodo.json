@@ -6,18 +6,11 @@
     {
       "name": "Adriano Rutz",
       "orcid": "0000-0003-0443-9902",
-      "affiliation": {
-        "name": "ETH Zurich",
-        "department": "Institute for Molecular Systems Biology",
-        "address": "Otto-Stern-Weg, 3",
-        "city": "Zurich",
-        "country": "Switzerland",
-        "postal_code": "8093",
-        "ror": "https://ror.org/03j5gm982"
-      }
+      "affiliation": "ETH Zurich, Institute for Molecular Systems Biology, Otto-Stern-Weg 3, 8093 Zurich, Switzerland (ROR: https://ror.org/03j5gm982)"
     }
   ],
-  "license": "MIT (code) and CC0 (data)",
+  "license": "CC0-1.0",
+  "notes": "This is a mixed-license upload. Dataset and metadata are released under CC0-1.0; scripts and utilities are licensed under MIT.",
   "keywords": [
     "cheminformatics",
     "IUPAC",
