@@ -9,7 +9,7 @@
       "affiliation": "ETH Zurich, Institute for Molecular Systems Biology, Otto-Stern-Weg 3, 8093 Zurich, Switzerland (ROR: https://ror.org/03j5gm982)"
     }
   ],
-  "license": "CC0-1.0",
+  "license": "MIT",
   "notes": "This is a mixed-license upload. Dataset and metadata are released under CC0-1.0; scripts and utilities are licensed under MIT.",
   "keywords": [
     "cheminformatics",
