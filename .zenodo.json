@@ -4,8 +4,7 @@
   "license": "MIT",
   "notes": "This is a mixed-license upload. Dataset and metadata are released under CC0-1.0; scripts and utilities are licensed under MIT.",
   "upload_type": "software",
-  "version": "0.0.1",
-  "publication_date": "2025-10-17",
+  "version": "0.0.2",
   "access_right": "open",
   "keywords": [
     "cheminformatics",
@@ -35,7 +34,7 @@
     },
     {
       "identifier": "https://www.wikidata.org",
-      "relation": "isSourceOf",
+      "relation": "isderivedfrom",
       "resource_type": "dataset",
       "scheme": "url"
     },

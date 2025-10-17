@@ -6,7 +6,7 @@ Validates results by comparing InChIKeys.
 
 Author: Adriano Rutz
 License: MIT (code) and CC0 (data)
-Version: 0.0.1
+Version: 0.0.2
 """
 
 import argparse
@@ -28,7 +28,7 @@ from SPARQLWrapper import SPARQLWrapper, JSON
 from tqdm import tqdm
 from typing import Dict, List, Tuple
 
-__version__ = "0.0.1"
+__version__ = "0.0.2"
 __author__ = "Adriano Rutz"
 __email__ = "adafede@gmail.com"
 __license__ = "MIT (code) and CC0 (data)"
@@ -111,7 +111,7 @@ class DependencyManager:
                 self.config.opsin_url,
                 stream=True,
                 timeout=self.config.timeout,
-                headers={"User-Agent": "WLIC-Converter/0.0.1"},
+                headers={"User-Agent": "WLIC-Converter/0.0.2"},
             )
             response.raise_for_status()
 
@@ -153,7 +153,7 @@ class WikidataQuerier:
         self.logger = logger
         self.sparql = SPARQLWrapper(config.sparql_endpoint)
         self.sparql.setReturnFormat(JSON)
-        self.sparql.addCustomHttpHeader("User-Agent", "WLIC-Converter/0.0.1")
+        self.sparql.addCustomHttpHeader("User-Agent", "WLIC-Converter/0.0.2")
 
     def query_chemical_data(self) -> Dict[str, str] | None:
         query = """
@@ -545,7 +545,7 @@ docker run -v $(pwd):/app/output wd-labels-to-iupac
 
 ## Citation
 
-Adriano Rutz ({time.strftime('%Y', time.gmtime())}). Wikidata-Labels-to-IUPAC Dataset. Version {__version__}.
+Adriano Rutz. ({time.strftime('%Y', time.gmtime())}). Wikidata-Labels-to-IUPAC Conversion Dataset ({__version__}). Zenodo. <https://doi.org/10.5281/zenodo.17378415>
 
 ## Acknowledgments
 

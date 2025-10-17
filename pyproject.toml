@@ -1,6 +1,6 @@
 [project]
 name = "Wikidata-Labels-to-IUPAC-Converter"
-version = "0.0.1"
+version = "0.0.2"
 description = "A Python program for converting wikidata labels to IUPAC names"
 readme = "README.md"
 requires-python = ">=3.12"

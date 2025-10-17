@@ -26,7 +26,7 @@ docker run -v $(pwd):/app/output wd-labels-to-iupac
 
 ## Citation
 
-Adriano Rutz (2025). Wikidata-Labels-to-IUPAC Dataset. Version 0.0.1.
+Adriano Rutz. (2025). Wikidata-Labels-to-IUPAC Conversion Dataset (0.0.1). Zenodo. <https://doi.org/10.5281/zenodo.17378415>
 
 ## Acknowledgments
 
