@@ -38,7 +38,7 @@ __license__ = "MIT (code) and CC0 (data)"
 class Config:
     opsin_url: str = "https://github.com/dan2097/opsin/releases/download/2.8.0/opsin-cli-2.8.0-jar-with-dependencies.jar"
     opsin_jar: str = "opsin-cli-2.8.0-jar-with-dependencies.jar"
-    sparql_endpoint: str = "https://qlever.cs.uni-freiburg.de/api/wikidata"
+    sparql_endpoint: str = "https://qlever.dev/api/wikidata"
     max_workers: int = 4
     timeout: int = 300
     retry_attempts: int = 3
