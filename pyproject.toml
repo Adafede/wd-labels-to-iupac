@@ -4,31 +4,37 @@ version = "0.0.2"
 description = "A Python program for converting wikidata labels to IUPAC names"
 readme = "README.md"
 requires-python = ">=3.12"
-license = {text = "MIT"}
+license = { text = "MIT" }
 authors = [
-    {name = "Adriano Rutz", email = "adafede@gmail.com"},
+  { name = "Adriano Rutz", email = "adafede@gmail.com" },
 ]
-keywords = ["cheminformatics", "chemistry", "IUPAC", "OPSIN", "rdkit", "wikidata",]
+keywords = [
+  "IUPAC",
+  "OPSIN",
+  "cheminformatics",
+  "chemistry",
+  "rdkit",
+  "wikidata",
+]
 classifiers = [
-    "Development Status :: 3 - Alpha",
-    "Intended Audience :: Science/Research",
-    "License :: OSI Approved :: MIT License",
-    "Operating System :: OS Independent",
-    "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.12",
-    "Programming Language :: Python :: 3.13",
-    "Programming Language :: Python :: 3.14",
-    "Topic :: Scientific/Engineering :: Chemistry",
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Programming Language :: Python :: 3.14",
+  "Topic :: Scientific/Engineering :: Chemistry",
 ]
-
 dependencies = [
-    "rdkit>=2025.9.1,<2026.0.0",
-    "requests>=2.32.5,<3.0.0",
-    "SPARQLWrapper>=2.0.0,<3.0.0",
-    "tqdm>=4.67.1,<5.0.0",
+  "SPARQLWrapper>=2.0.0,<3.0.0",
+  "rdkit>=2025.9.1,<2026.0.0",
+  "requests>=2.32.5,<3.0.0",
+  "tqdm>=4.67.1,<5.0.0",
 ]
 
 [project.urls]
 Homepage = "https://github.com/Adafede/wd-labels-to-iupac"
-Repository = "https://github.com/Adafede/wd-labels-to-iupac.git"
 Issues = "https://github.com/Adafede/wd-labels-to-iupac/issues"
+Repository = "https://github.com/Adafede/wd-labels-to-iupac.git"
